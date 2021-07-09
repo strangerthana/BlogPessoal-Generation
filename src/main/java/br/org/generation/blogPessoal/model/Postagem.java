@@ -28,7 +28,7 @@ public class Postagem {
 	private String titulo;
 	
 	@NotNull
-	@Size(min = 10, max = 1000)
+	@Size(min = 5, max = 1000)
 	private String texto;
 	
 	@Temporal(TemporalType.TIMESTAMP)
